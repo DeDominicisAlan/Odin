@@ -24,7 +24,7 @@ body{
 	align-items: center;
 	position: fixed;
 	width: 100%;
-	box-shadow:1px -1px 12px 0px rgb(177 26 195 / 26%);
+	box-shadow: 0px 2px 12px 0px rgb(177 26 195 / 26%);
 }
 
 .header-bar img{
@@ -93,7 +93,6 @@ body{
 }
 
 .boton:hover{
-	border: 2px solid rgb(177 26 195 / 16%);
 	color: white;
 }
 
@@ -115,9 +114,8 @@ body{
 }
 
 .discos h1{
-	box-shadow:1px -5px 12px 0px rgb(177 26 195 / 26%);
 	padding: 10px 0;
-	text-shadow: -1px -1px 2px rgb(177 26 195 / 26%);
+	/*text-shadow: -1px -1px 2px rgb(177 26 195 / 26%);*/
 	color: #1F2937;
 }
 
@@ -138,8 +136,6 @@ body{
 .discos.contenedor.links img{
 	width: 240px;
 	border: 3px solid #4d4877;
-	border-radius: 7.5px;
-	padding: 10px;
 }
 
 .discos.contenedor.links a{
@@ -154,13 +150,14 @@ body{
 
 .discos.contenedor.links a:hover{
 	color: white;
+
 }
 
 /* Informacion */
 
 .frase{
 	background-color: #E5E7EB;
-	padding: 80px;
+	padding: 60px;
 	font-size: 40px;
 	font-family: light italic;
 	color: #1F2937;
@@ -176,6 +173,51 @@ body{
 	text-align: right;
 }
 
+
+/* Contacto */
+
+.contacto{
+	padding: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contacto.contenedor{
+	display: flex;
+	border-radius: 15px;
+	background-color: #1F2937;
+	padding: 50px 150px;
+	
+}
+
+.contacto.contenedor.texto{
+	display: flex;
+	flex-direction: column;
+	align-items: initial;
+}
+
+.contacto.contenedor.texto, .contacto.contenedor.texto h2, .contacto.contenedor.texto p{
+	margin: 0;
+	padding: 0 20px;
+}
+
+.boton-cont{
+	height: 40px;
+	width: 120px;
+	border-radius: 25px;
+	background-color: #a99cae;
+	transition: 0.3s;
+	font-size: 18px;
+}
+
+.boton-cont{
+	transition: 0.3s;
+}
+
+.boton-cont:hover{
+	color: white;
+}
 
 /* Footer */
 
