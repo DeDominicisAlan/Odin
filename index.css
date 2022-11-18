@@ -24,6 +24,7 @@ body{
 	align-items: center;
 	position: fixed;
 	width: 100%;
+	box-shadow:1px -1px 12px 0px rgb(177 26 195 / 26%);
 }
 
 .header-bar img{
@@ -70,20 +71,31 @@ body{
 }
 
 .header.presentacion.titulo h1{
+	font-size: 48px;
 	text-shadow: -1px -1px #420f70;
 }
 
 .header.presentacion.titulo p{
 	width: 500px;
+	font-size: 18px;
 }
 
 .boton{
-	height: 30px;
-	width: 90px;
+	height: 40px;
+	width: 180px;
+	border-radius: 25px;
+	background-color: #a99cae;
 }
 
 .boton a{
+	font-size: 20px;
+	color: #1F2937;
 	text-decoration: none;
+	transition: 0.3s;
+}
+
+.boton a:hover{
+	color: white;
 }
 
 /* Imagen de Presentacion */
@@ -123,9 +135,10 @@ body{
 }
 
 .discos.contenedor.links img{
-	width: 250px;
-	border: 2px solid #a99cae;
+	width: 240px;
+	border: 3px solid #a99cae;
 	border-radius: 7.5px;
+	padding: 10px;
 }
 
 .discos.contenedor.links a{
@@ -141,6 +154,27 @@ body{
 .discos.contenedor.links a:hover{
 	color: #4d4877;
 }
+
+/* Informacion */
+
+.frase{
+	background-color: #E5E7EB;
+	padding: 80px;
+	font-size: 40px;
+	font-family: light italic;
+	color: #1F2937;
+}
+
+.frase p{
+	padding: 20px;
+	margin: 0;
+}
+
+.autor{
+	font-size: 25px;
+	text-align: right;
+}
+
 
 /* Footer */
 
