@@ -156,7 +156,7 @@ body{
 /* Informacion */
 
 .frase{
-	background-color: #E5E7EB;
+	background-color:#a99cae ;
 	padding: 60px;
 	font-size: 40px;
 	font-family: light italic;
@@ -177,10 +177,12 @@ body{
 /* Contacto */
 
 .contacto{
+	background-color: #9c8cac;
 	padding: 60px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 }
 
 .contacto.contenedor{
