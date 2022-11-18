@@ -67,11 +67,13 @@ body{
 	padding: 40px;
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
 	margin-right: -10px;
 }
 
 .header.presentacion.titulo h1{
-	font-size: 48px;
+	margin: 10px;
+	font-size: 40px;
 	text-shadow: -1px -1px #420f70;
 }
 
@@ -85,16 +87,13 @@ body{
 	width: 180px;
 	border-radius: 25px;
 	background-color: #a99cae;
-}
-
-.boton a{
-	font-size: 20px;
-	color: #1F2937;
-	text-decoration: none;
 	transition: 0.3s;
+	margin: 10px;
+	font-size: 20px;
 }
 
-.boton a:hover{
+.boton:hover{
+	border: 2px solid rgb(177 26 195 / 16%);
 	color: white;
 }
 
@@ -109,15 +108,17 @@ body{
 
 .discos{
 	width: 100%;
-	margin-top: -20px;
+	margin: -22px 0 -2px;
+	padding-bottom: 5px;
 	text-align: center;
-	
+	background-color: #9c8cac;
 }
 
 .discos h1{
 	box-shadow:1px -5px 12px 0px rgb(177 26 195 / 26%);
 	padding: 10px 0;
-	text-shadow: -1px -1px 2px #420f70;
+	text-shadow: -1px -1px 2px rgb(177 26 195 / 26%);
+	color: #1F2937;
 }
 
 .discos.contenedor{
@@ -136,23 +137,23 @@ body{
 
 .discos.contenedor.links img{
 	width: 240px;
-	border: 3px solid #a99cae;
+	border: 3px solid #4d4877;
 	border-radius: 7.5px;
 	padding: 10px;
 }
 
 .discos.contenedor.links a{
 	text-decoration: none;
-	color: #a99cae;
+	color: #4d4877;
 	transition: 0.3s
 }
 
 .discos.contenedor.links a:visited{
-	color: #a99cae;
+	color: #4d4877;
 }
 
 .discos.contenedor.links a:hover{
-	color: #4d4877;
+	color: white;
 }
 
 /* Informacion */
